@@ -1,0 +1,11 @@
+title: Malla interactiva icf
+description: Ingeniería civil física
+theme: icf
+
+
+url: https://iache-d.github.io/malla-interactiva-icf/
+baseurl: /malla-interactiva-icf
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
