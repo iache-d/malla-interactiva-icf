@@ -1,0 +1,2 @@
+cd malla-selector
+npm start

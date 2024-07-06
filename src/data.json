@@ -1,0 +1,426 @@
+{
+    "courses": [
+        {
+            "id": "FIS-100",
+            "name": "Introducción a la Física",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "MAT-060",
+            "name": "Álgebra y Geometría",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "MAT-070",
+            "name": "Introducción al Cálculo",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "IWI-131",
+            "name": "Programación",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "IWG-101",
+            "name": "Introducción a la Ingeniería",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "HCW-100",
+            "name": "Inglés A",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "EFI-100",
+            "name": "Educación Física I",
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "id": "FIS-110",
+            "name": "Física General I",
+            "semester": 2,
+            "prerequisites": [
+                "FIS-100"
+            ]
+        },
+        {
+            "id": "MAT-061",
+            "name": "Álgebra Lineal",
+            "semester": 2,
+            "prerequisites": [
+                "MAT-060"
+            ]
+        },
+        {
+            "id": "MAT-071",
+            "name": "Cálculo en una variable",
+            "semester": 2,
+            "prerequisites": [
+                "MAT-070"
+            ]
+        },
+        {
+            "id": "QUI-010",
+            "name": "Química y Sociedad",
+            "semester": 2,
+            "prerequisites": []
+        },
+        {
+            "id": "HCW-101",
+            "name": "Inglés B",
+            "semester": 2,
+            "prerequisites": [
+                "HCW-100"
+            ]
+        },
+        {
+            "id": "EFI-101",
+            "name": "Educación Física II",
+            "semester": 2,
+            "prerequisites": [
+                "EFI-100"
+            ]
+        },
+        {
+            "id": "FIS-131",
+            "name": "Física General III",
+            "semester": 3,
+            "prerequisites": [
+                "FIS-110",
+                "MAT-061",
+                "MAT-071"
+            ]
+        },
+        {
+            "id": "FIS-105",
+            "name": "Instrumentación Científica",
+            "semester": 3,
+            "prerequisites": []
+        },
+        {
+            "id": "MAT-023",
+            "name": "Matemáticas III",
+            "semester": 3,
+            "prerequisites": [
+                "MAT-061",
+                "MAT-071"
+            ]
+        },
+        {
+            "id": "QUI-021",
+            "name": "Química Básica",
+            "semester": 3,
+            "prerequisites": [
+                "QUI-010"
+            ]
+        },
+        {
+            "id": "HCW-102",
+            "name": "Inglés C o Humanista I",
+            "semester": 3,
+            "prerequisites": [
+                "HCW-101"
+            ]
+        },
+        {
+            "id": "DEW-000",
+            "name": "Electivo de Deportes",
+            "semester": 3,
+            "prerequisites": [
+                "EFI-101"
+            ]
+        },
+        {
+            "id": "FIS-121",
+            "name": "Física General II",
+            "semester": 4,
+            "prerequisites": [
+                "FIS-110",
+                "MAT-061",
+                "MAT-071"
+            ]
+        },
+        {
+            "id": "FIS-200",
+            "name": "Física Experimental",
+            "semester": 4,
+            "prerequisites": [
+                "FIS-105",
+                "FIS-131"
+            ]
+        },
+        {
+            "id": "FIS-210",
+            "name": "Mecánica Intermedia I",
+            "semester": 4,
+            "prerequisites": [
+                "FIS-110",
+                "MAT-023"
+            ]
+        },
+        {
+            "id": "MAT-024",
+            "name": "Matemáticas IV",
+            "semester": 4,
+            "prerequisites": [
+                "MAT-023"
+            ]
+        },
+        {
+            "id": "HCW-103",
+            "name": "Inglés D o Humanista II",
+            "semester": 4,
+            "prerequisites": [
+                "HCW-102"
+            ]
+        },
+        {
+            "id": "FIS-141",
+            "name": "Física General IV",
+            "semester": 5,
+            "prerequisites": [
+                "FIS-131",
+                "FIS-121"
+            ]
+        },
+        {
+            "id": "FIS-190",
+            "name": "Fundamentos para la Electrónica",
+            "semester": 5,
+            "prerequisites": [
+                "FIS-121",
+                "FIS-200"
+            ]
+        },
+        {
+            "id": "MAT-270",
+            "name": "Análisis Numérico",
+            "semester": 5,
+            "prerequisites": [
+                "MAT-024"
+            ]
+        },
+        {
+            "id": "INF-230",
+            "name": "Programación Avanzada para Ciencias",
+            "semester": 5,
+            "prerequisites": [
+                "IWI-131"
+            ]
+        },
+        {
+            "id": "ICN-262",
+            "name": "Administración de Empresas",
+            "semester": 5,
+            "prerequisites": [
+                
+            ]
+        },
+        {
+            "id": "FIS-242",
+            "name": "Física Cuántica I",
+            "semester": 6,
+            "prerequisites": [
+                "FIS-210"
+            ]
+        },
+        {
+            "id": "FIS-220",
+            "name": "Campos Electromagnéticos I",
+            "semester": 6,
+            "prerequisites": [
+                "FIS-121",
+                "FIS-131",
+                "MAT-024"
+            ]
+        },
+        {
+            "id": "FIS-245",
+            "name": "Métodos de la Física Matemática",
+            "semester": 6,
+            "prerequisites": [
+                "MAT-024"
+            ]
+        },
+        {
+            "id": "ICF-130",
+            "name": "Fundamentos de la Termodinámica Aplicada",
+            "semester": 6,
+            "prerequisites": [
+                "FIS-131",
+                "MAT-023"
+            ]
+        },
+        {
+            "id": "FIS-223",
+            "name": "Espectroscopía Moderna y Óptica",
+            "semester": 7,
+            "prerequisites": [
+                "FIS-220",
+                "FIS-141"
+            ]
+        },
+        {
+            "id": "FIS-230",
+            "name": "Termodinámica y Mecánica Estadística",
+            "semester": 7,
+            "prerequisites": [
+                "FIS-141",
+                "MAT-023"
+            ]
+        },
+        {
+            "id": "FIS-205",
+            "name": "Física Computacional",
+            "semester": 7,
+            "prerequisites": [
+                "MAT-270"
+            ]
+        },
+        {
+            "id": "ICF-140",
+            "name": "Mecánica de Fluidos",
+            "semester": 7,
+            "prerequisites": [
+                "FIS-210"
+            ]
+        },
+        {
+            "id": "ICN-270",
+            "name": "Información y Matemática Financiera",
+            "semester": 7,
+            "prerequisites": [
+                "ICN-262"
+            ]
+        },
+        {
+            "id": "ICF-210",
+            "name": "Instrumentación en Astroingeniería",
+            "semester": 8,
+            "prerequisites": [
+                "FIS-223"
+            ]
+        },
+        {
+            "id": "ICF-230",
+            "name": "Proceso de Tranferencia de Materia y Energía",
+            "semester": 8,
+            "prerequisites": [
+                "ICF-140"
+            ]
+        },
+        {
+            "id": "ICF-280",
+            "name": "Taller de Modelamiento y Simulación de Sistemas Complejos",
+            "semester": 8,
+            "prerequisites": [
+                "FIS-220",
+                "FIS-230",
+                "FIS-205"
+            ]
+        },
+        {
+            "id": "ICN-336",
+            "name": "Evaluación de Proyectos",
+            "semester": 8,
+            "prerequisites": [
+                "ICN-270"
+            ]
+        },
+        {
+            "id": "HCW-104",
+            "name": "Inglés E o Humanista III",
+            "semester": 8,
+            "prerequisites": [
+                "HCW-103"
+            ]
+        },
+        {
+            "id": "FIS-251",
+            "name": "Introducción a la Física de Materia Condensada",
+            "semester": 9,
+            "prerequisites": [
+                "FIS-242"
+            ]
+        },
+        {
+            "id": "ICF-240",
+            "name": "Fundamentos de Tecnologías Cuánticas",
+            "semester": 9,
+            "prerequisites": [
+                "FIS-223",
+                "FIS-242",
+                "FIS-230"
+            ]
+        },
+        {
+            "id": "ICF-250",
+            "name": "Gestión de la Innovación Tecnológica",
+            "semester": 9,
+            "prerequisites": [
+                "ICN-336",
+                "ICN-270"
+            ]
+        },
+        {
+            "id": "ICF-260",
+            "name": "Fundamentos de Energías Renovables",
+            "semester": 9,
+            "prerequisites": [
+                "FIS-242"
+            ]
+        },
+        {
+            "id": "INF-292",
+            "name": "Optimización",
+            "semester": 9,
+            "prerequisites": [
+                "IWI-131",
+                "MAT-071",
+                "MAT-061"
+            ]
+        },
+        {
+            "id": "ICF-251",
+            "name": "Emprendimiento",
+            "semester": 10,
+            "prerequisites": [
+                "ICF-250"
+            ]
+        },
+        {
+            "id": "ICF-298",
+            "name": "Seminario de Título",
+            "semester": 10,
+            "prerequisites": [
+                "HCW-104",
+                "ICN-336",
+                "ICF-280",
+                "ICF-230",
+                "ICF-223",
+                "ICF-130",
+                "FIS-245",
+                "INF-230",
+                "FIS-190",
+                "DEW-000",
+                "QUI-021",
+                "IWG-101"
+            ]
+        },
+        {
+            "id": "ICF-299",
+            "name": "Memoria de Título",
+            "semester": 11,
+            "prerequisites": [
+                "ICF-298"
+            ]
+        }
+    ]
+}

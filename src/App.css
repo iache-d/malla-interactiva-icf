@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.App {
+  text-align: center;
+
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: auto;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.year-row,
+.semester-row {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.year {
+  padding: 15px;
+  font-weight: bold;
+  background-color: #A7A5C6;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.semester-header {
+  padding: 15px;
+  background-color: #516381;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 10px;
+}
+
+.semester {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.course {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, border 0.3s, box-shadow 0.3s;
+  min-width: 200px;
+  white-space: normal;
+  word-break: break-word;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #42253B;
+  color: #ffffff;
+}
+
+.course.selected {
+  background-color: #C75146;
+  border-color: #5D707F;
+  color: #ffffff;
+}
+
+.course.available {
+  background-color: #5D707F;
+  border-color: #66CED6;
+  color: #ffffff;
+}
+
+.course.blocked {
+  background-color: #d4392b;
+  border-color: #A7A5C6;
+  color: #ffffff;
+}
+
+.course:hover {
+  border-color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course:hover.selected {
+  background-color: #EA8C55;
+}
+
+.course:hover.available {
+  background-color: #22181C;
+}
+
+.course:hover.blocked {
+  background-color: #FF6F61;
+}
